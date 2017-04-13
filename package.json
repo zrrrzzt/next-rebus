@@ -51,7 +51,7 @@
     "standard": "10.0.1"
   },
   "dependencies": {
-    "axios": "0.16.0",
+    "axios": "0.16.1",
     "muicss": "0.9.15",
     "next": "2.1.1",
     "react": "15.5.4",
