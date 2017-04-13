@@ -1,6 +1,7 @@
 'use strict'
 
 import React from 'react'
+import { Notification } from 'react-notification'
 import Container from 'muicss/lib/react/container'
 import Form from 'muicss/lib/react/form'
 import Input from 'muicss/lib/react/input'
@@ -8,8 +9,6 @@ import Button from 'muicss/lib/react/button'
 import Head from '../components/head'
 import Slide from '../components/slide'
 import Letters from '../components/letters'
-import Message from '../components/message'
-import Errors from '../components/error'
 const data = require('../test/data/example.json')
 
 export default class Index extends React.Component {
@@ -19,6 +18,7 @@ export default class Index extends React.Component {
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleStart = this.handleStart.bind(this)
+    this.hideNotification = this.hideNotification.bind(this)
   }
 
   static async getInitialProps (ctx) {
@@ -28,8 +28,10 @@ export default class Index extends React.Component {
       index: 0,
       letters: [],
       answer: '',
-      error: false,
-      message: false
+      notification: {
+        isActive: false,
+        message: ''
+      }
     }
   }
 
@@ -57,13 +59,17 @@ export default class Index extends React.Component {
         index: index,
         letters: letters,
         answer: '',
-        error: false,
-        message: 'Svaret var riktig! Er du klar for nye oppgaver?'
+        notification: {
+          isActive: true,
+          message: 'Svaret var riktig! Er du klar for nye oppgaver?'
+        }
       })
     } else {
       this.setState({
-        error: 'Beklager. Det var feil. Prøv igjen',
-        message: false
+        notification: {
+          isActive: true,
+          message: 'Beklager. Det var feil. Prøv igjen'
+        }
       })
     }
   }
@@ -77,18 +83,22 @@ export default class Index extends React.Component {
     })
   }
 
+  hideNotification (event) {
+    // event.preventDefault()
+    this.setState({
+      notification: {
+        isActive: false,
+        message: ''
+      }
+    })
+  }
+
   render () {
     return (
       <div className='center'>
         <Head />
         <Container fluid>
           <Slide data={this.state.slide} />
-          {
-            this.state.error !== false ? <Errors error={this.state.error} /> : null
-          }
-          {
-            this.state.message !== false ? <Message message={this.state.message} /> : null
-          }
           {
             this.state.letters.length > 0 ? <Letters letters={this.state.letters} /> : null
           }
@@ -101,10 +111,17 @@ export default class Index extends React.Component {
           {
             this.state.slide.type === 'start' ? <Button variant='raised' onClick={this.handleStart}>START</Button> : null
           }
+          <Notification
+            isActive={this.state.notification.isActive}
+            message={this.state.notification.message}
+            action={'[X]'}
+            onClick={this.hideNotification}
+          />
         </Container>
         <style jsx>{`
       .center {
         text-align: center;
+        font-size: 2rem;
       }
     `}</style>
       </div>

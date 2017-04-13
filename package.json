@@ -57,6 +57,7 @@
     "muicss": "0.9.15",
     "next": "2.1.1",
     "react": "15.5.4",
-    "react-dom": "15.5.4"
+    "react-dom": "15.5.4",
+    "react-notification": "6.6.0"
   }
 }
