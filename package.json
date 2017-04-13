@@ -1,0 +1,60 @@
+{
+  "name": "next-rebus",
+  "version": "1.0.0",
+  "description": "Compare results from bigfive personality tests",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "keywords": [
+    "rebus",
+    "fun",
+    "next"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/next-rebus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/next-rebus/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/next-rebus",
+  "engines": {
+    "node": ">=7.9.0"
+  },
+  "now": {
+    "alias": "gasepaske.sumuch.party",
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "type": "npm"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "now-deploy": "npm test && now && now alias"
+  },
+  "devDependencies": {
+    "ava": "0.19.1",
+    "coveralls": "2.13.0",
+    "nsp": "2.6.3",
+    "nyc": "10.2.0",
+    "standard": "10.0.1"
+  },
+  "dependencies": {
+    "axios": "0.16.0",
+    "muicss": "0.9.15",
+    "next": "2.1.1",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  }
+}

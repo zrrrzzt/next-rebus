@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Den store påskeskatten",
+    "description": "Finn alle bokstavene og dann løsningsordet. Trykk START for å begynne jakten.",
+    "image": "",
+    "answer": "",
+    "type": "start"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/fuglemater.JPG",
+    "answer": "A",
+    "type": "question"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/murblokker.JPG",
+    "answer": "B",
+    "type": "question"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/stein.JPG",
+    "answer": "D",
+    "type": "question"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/mur.JPG",
+    "answer": "E",
+    "type": "question"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/busk.JPG",
+    "answer": "U",
+    "type": "question"
+  },
+  {
+    "title": "Finn bokstaven",
+    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
+    "image": "static/images/hengelas.JPG",
+    "answer": "V",
+    "type": "question"
+  },
+  {
+    "title": "Løsningsordet",
+    "description": "Inni denne ligger skatten. Skriv løsningsordet for å få nøkkelen til der boksen ligger",
+    "image": "static/images/skatten.JPG",
+    "answer": "VEDBUA",
+    "type": "question"
+  },
+  {
+    "title": "Skatten",
+    "description": "Her ligger nøkkelen",
+    "image": "static/images/bua.JPG",
+    "answer": "",
+    "type": "end"
+  }
+]
