@@ -2,63 +2,63 @@
   {
     "title": "Den store påskeskatten",
     "description": "Finn alle bokstavene og dann løsningsordet. Trykk START for å begynne jakten.",
-    "image": "",
+    "image": "static/images/chickens.jpg",
     "answer": "",
     "type": "start"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/fuglemater.JPG",
+    "image": "static/images/fuglemater.jpg",
     "answer": "A",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/murblokker.JPG",
+    "image": "static/images/murblokker.jpg",
     "answer": "B",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/stein.JPG",
+    "image": "static/images/stein.jpg",
     "answer": "D",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/mur.JPG",
+    "image": "static/images/mur.jpg",
     "answer": "E",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/busk.JPG",
+    "image": "static/images/busk.jpg",
     "answer": "U",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
     "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/hengelas.JPG",
+    "image": "static/images/hengelas.jpg",
     "answer": "V",
     "type": "question"
   },
   {
     "title": "Løsningsordet",
     "description": "Inni denne ligger skatten. Skriv løsningsordet for å få nøkkelen til der boksen ligger",
-    "image": "static/images/skatten.JPG",
+    "image": "static/images/skatten.jpg",
     "answer": "VEDBUA",
     "type": "question"
   },
   {
     "title": "Skatten",
     "description": "Her ligger nøkkelen",
-    "image": "static/images/bua.JPG",
+    "image": "static/images/bua.jpg",
     "answer": "",
     "type": "end"
   }

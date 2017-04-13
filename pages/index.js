@@ -79,7 +79,7 @@ export default class Index extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className='center'>
         <Head />
         <Container fluid>
           <Slide data={this.state.slide} />
@@ -102,6 +102,11 @@ export default class Index extends React.Component {
             this.state.slide.type === 'start' ? <Button variant='raised' onClick={this.handleStart}>START</Button> : null
           }
         </Container>
+        <style jsx>{`
+      .center {
+        text-align: center;
+      }
+    `}</style>
       </div>
     )
   }
