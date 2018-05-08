@@ -57,6 +57,6 @@
     "next": "6.0.0",
     "react": "16.3.2",
     "react-dom": "16.3.2",
-    "react-notification": "6.6.0"
+    "react-notification": "6.8.2"
   }
 }
