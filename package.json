@@ -49,12 +49,12 @@
     "ava": "0.25.0",
     "coveralls": "3.0.1",
     "nsp": "3.2.1",
-    "nyc": "11.7.2",
+    "nyc": "11.8.0",
     "standard": "11.0.1"
   },
   "dependencies": {
     "muicss": "0.9.39",
-    "next": "6.0.2",
+    "next": "6.0.3",
     "react": "16.4.0",
     "react-dom": "16.4.0",
     "react-notification": "6.8.2"
