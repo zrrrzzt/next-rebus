@@ -55,8 +55,8 @@
   "dependencies": {
     "muicss": "0.9.41",
     "next": "6.1.2",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
+    "react": "16.5.1",
+    "react-dom": "16.5.1",
     "react-notification": "6.8.4"
   }
 }
