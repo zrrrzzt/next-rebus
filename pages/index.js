@@ -1,5 +1,3 @@
-'use strict'
-
 import React from 'react'
 import { Notification } from 'react-notification'
 import Container from 'muicss/lib/react/container'
