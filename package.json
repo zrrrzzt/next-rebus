@@ -16,14 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zrrrzzt/next-rebus.git"
+    "url": "git+https://github.com/zrrrzzt/next-rebus.git"
   },
   "bugs": {
     "url": "https://github.com/zrrrzzt/next-rebus/issues"
   },
-  "homepage": "https://github.com/zrrrzzt/next-rebus",
+  "homepage": "https://github.com/zrrrzzt/next-rebus#readme",
   "engines": {
-    "node": ">=7.9.0"
+    "node": ">=10.14.2"
   },
   "now": {
     "alias": [
