@@ -1,64 +1,64 @@
 [
   {
-    "title": "Den store påskeskatten",
-    "description": "Finn alle bokstavene og dann løsningsordet. Trykk START for å begynne jakten.",
-    "image": "static/images/chickens.jpg",
+    "title": "Grusomme Gunnars Gretne Rebus",
+    "description": "Trykk START for å begynne.",
+    "image": "static/images/angry-emoji.jpeg",
     "answer": "",
     "type": "start"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/fuglemater.jpg",
+    "description": "Første bokstav",
+    "image": "static/images/frozen.jpeg",
     "answer": "A",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/murblokker.jpg",
+    "description": "Første bokstav i etternavnet",
+    "image": "static/images/gunnar.jpeg",
     "answer": "B",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/stein.jpg",
+    "description": "Første bokstav",
+    "image": "static/images/hest.jpeg",
     "answer": "D",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/mur.jpg",
+    "description": "Første bokstav i fornavn",
+    "image": "static/images/hegerberg.jpeg",
     "answer": "E",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/busk.jpg",
+    "description": "Første bokstav",
+    "image": "static/images/ferrari.jpeg",
     "answer": "U",
     "type": "question"
   },
   {
     "title": "Finn bokstaven",
-    "description": "Her ligger det en bokstav. Finn den og skriv bokstaven for å komme videre",
-    "image": "static/images/hengelas.jpg",
+    "description": "Første bokstav",
+    "image": "static/images/fyrer.jpeg",
     "answer": "V",
     "type": "question"
   },
   {
     "title": "Løsningsordet",
-    "description": "Inni denne ligger skatten. Skriv løsningsordet for å få nøkkelen til der boksen ligger",
-    "image": "static/images/skatten.jpg",
+    "description": "Skriv løsningsordet for å komme deg videre",
+    "image": "static/images/skatten.jpeg",
     "answer": "VEDBUA",
     "type": "question"
   },
   {
-    "title": "Skatten",
-    "description": "Her ligger nøkkelen",
-    "image": "static/images/bua.jpg",
+    "title": "Nytt kodeord",
+    "description": "Gå til enigma og tast inn: juletrefot",
+    "image": "static/images/keypad.jpg",
     "answer": "",
     "type": "end"
   }
