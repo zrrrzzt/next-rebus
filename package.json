@@ -52,7 +52,7 @@
     "next": "9.1.2",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-notification": "6.8.4"
+    "react-notification": "6.8.5"
   },
   "standard": {
     "ignore": [
