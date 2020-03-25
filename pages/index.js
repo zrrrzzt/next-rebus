@@ -112,7 +112,7 @@ export default class Index extends React.Component {
           <Notification
             isActive={this.state.notification.isActive}
             message={this.state.notification.message}
-            action={'[X]'}
+            action='[X]'
             onClick={this.hideNotification}
           />
         </Container>
@@ -121,7 +121,8 @@ export default class Index extends React.Component {
         text-align: center;
         font-size: 2rem;
       }
-    `}</style>
+    `}
+        </style>
       </div>
     )
   }
