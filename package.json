@@ -41,7 +41,7 @@
     "deploy": "npm test && now && now alias"
   },
   "devDependencies": {
-    "ava": "3.9.0",
+    "ava": "3.10.1",
     "babel-eslint": "10.1.0",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
