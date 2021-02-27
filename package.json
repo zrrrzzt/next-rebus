@@ -48,7 +48,7 @@
     "standard": "16.0.3"
   },
   "dependencies": {
-    "muicss": "0.10.2",
+    "muicss": "0.10.3",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
